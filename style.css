@@ -1,0 +1,140 @@
+
+
+/*---------------------------------------------------------------*/
+
+
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img{
+  width:150px;
+}
+
+.nav-link{
+  flex: 1;
+  text-align: right;
+}
+
+.nav-link ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 17px;
+  position: relative;
+}
+
+.nav-link ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 13px
+
+}
+.nav-link ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-link ul li:hover::after{
+  width: 100%
+}
+
+li:hover{
+  z-index:9;
+  transform:scale(1.6);
+  transition:transform ease: 0.6s;
+}
+
+/*------------------------contact----------------------------------*/
+.header2{
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/i5.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+h1{
+  font-size: 36px;
+  text-align: center;
+  font-weight: 600;
+}
+p{
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 10px;
+  text-align: center;
+}
+.contacts{
+  text-align: center;
+
+}
+.row{
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.para{
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.para:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*------------------------social----------------------------------*/
+
+.align{
+  font-size:50px;
+
+}
+iconify-icon:hover{
+
+  transform:scale(1.6);
+}
+#class1{
+  color: #E4405F ;
+
+}
+#class2{
+  color: #00acee;
+}
+#class3{
+  color: #0e76a8;
+}
+#class4{
+  color: red;
+}
+
+/*---------------------------------------------------------------*/
