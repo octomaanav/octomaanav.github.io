@@ -21,7 +21,9 @@ nav{
 }
 
 nav img{
-  width:150px;
+  width:250px;
+  height: 200px;
+  margin-left: -50px;
 }
 
 .nav-link{
@@ -42,6 +44,8 @@ nav img{
   font-size: 13px
 
 }
+
+
 
 .nav-link ul li::after{
   content: '';
