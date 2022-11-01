@@ -11,7 +11,9 @@ nav{
 }
 
 nav img{
-  width:150px;
+  width:280px;
+  height: 200px;
+  margin-left: -90px;
 }
 
 .nav-link{
