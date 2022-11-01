@@ -43,12 +43,14 @@ nav img{
   margin: auto;
   transition: 0.5s;
 }
-img{
+
+#img5{
   filter:grayscale(100%);
 }
-img:hover{
+#img5:hover{
   filter:none;
 }
+
 a{
   text-decoration:none;
 }
